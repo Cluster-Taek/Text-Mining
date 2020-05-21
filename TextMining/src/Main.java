@@ -7,7 +7,7 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Minumum Frequency : ");
 		int frequency = sc.nextInt();
-		String filter [] = {"your","you"," ","Question","Answer",". ","for","in","a","the","and","or","is","of","this","\r","to","as","it","so","0","1","2","3","4","5","6","7","8","9"};
+		String filter [] = {"your","you","my"," ","Question","Answer",". ","for","in","a","the","and","or","is","of","this","\r","to","as","it","so","0","1","2","3","4","5","6","7","8","9"};
 		Convert c = new Convert();
 		Count count = new Count();
 		boolean big = true;
